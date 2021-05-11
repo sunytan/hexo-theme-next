@@ -52,6 +52,15 @@
   </div>
 {%- endif %}
 
+{% if theme.footer.theme %}
+  <div class="theme-info">{#
+  #}{{ __('footer.theme') }} &mdash; {#
+  #}<a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">{#
+    #}NexT.{{ theme.scheme }}{#
+  #}</a> v{{ theme.version }}{#
+#}</div>
+{% endif %}
+
 {%- if theme.add_this_id %}
   <div class="addthis_inline_share_toolbox">
     <script src="//s7.addthis.com/js/300/addthis_widget.js#pubid={{ theme.add_this_id }}" async="async"></script>

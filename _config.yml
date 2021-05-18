@@ -179,7 +179,8 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/sunytan || fab fa-github
-  CSDN: https://blog.csdn.net/tanyang93 || crosshairs
+  CSDN: https://blog.csdn.net/tanyang93 || fa fa-crosshairs
+  简书: https://www.jianshu.com/u/3a4d1b63bc40 || fa fa-address-book
   #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
   #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
@@ -282,7 +283,7 @@ follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
   #WeChat: /images/wechat_channel.jpg || fab fa-weixin
-  #RSS: /atom.xml || fa fa-rss
+  RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
 # Dependencies: https://github.com/tea3/hexo-related-popular-posts
@@ -359,7 +360,7 @@ codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: normal
+  highlight_theme: night bright
   # Add copy button on codeblock
   copy_button:
     enable: true
@@ -413,7 +414,7 @@ github_banner:
 # ---------------------------------------------------------------
 
 font:
-  enable: false
+  enable: true
 
   # Uri of fonts host, e.g. https://fonts.googleapis.com (Default).
   host:
@@ -426,30 +427,32 @@ font:
   # Global font settings used for all elements inside <body>.
   global:
     external: true
-    family: Lato
-    size:
+    family: Palatino
+    size: 0.9
 
   # Font settings for site title (.site-title).
   title:
     external: true
-    family:
-    size:
+    family: Comic Sans MS
+    size: 1.5
 
   # Font settings for headlines (<h1> to <h6>).
   headings:
     external: true
     family:
-    size:
+    size: 1.5
 
   # Font settings for posts (.post-body).
   posts:
     external: true
     family:
+    size: 1
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
     family:
+    size: 0.5
 
 
 # ---------------------------------------------------------------
